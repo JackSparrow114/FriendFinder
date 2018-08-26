@@ -4,7 +4,7 @@ var bodyParser = require("body-parser");
 
 // SET UP EXPRESS APP
 var app = express();
-var PORT = 3000;
+var PORT = process.env.PORT || 3000;
 
 // SET UP MIDDLE WEAR
 app.use(bodyParser.urlencoded({extended: true}));
