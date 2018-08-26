@@ -1,0 +1,25 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "This is a full stack app for finding friends based on your likes and dislikes",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JackSparrow114/FriendFinder.git"
+  },
+  "author": "Arpit Shukla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JackSparrow114/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/JackSparrow114/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "path": "^0.12.7"
+  }
+}
